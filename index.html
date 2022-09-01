@@ -6,21 +6,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Ian Bullard - Portfolio</title>
 	<link rel="icon" href="images/favicon.jpg">
-	<link href="styles.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<header>
-     <a href="#home" class="logo">Portfolio</a>
-        <nav class="navigation">
-            <div class="navigation_items">
-                <a href="#home">Home</a> 
-                <a href="#about-me">About Me</a>
-                <a href="#portfolio">Projects</a>
-
+<!--Header Section-->
+<section id="header">
+    <div class="header container">
+        <div class="nav-bar">
+            <div class="brand">
+                <a href="#home"><h1>Portfolio</h1></a>
             </div>
-        </nav>
-</header>
+            <div class="nav-list">
+                <div class="hamburger">
+                  <div class="bar"></div>
+                </div>
+                <ul>
+                    <li><a href="#home" data-after="Home">Home</a></li>
+                    <li><a href="#about-me" data-after="About Me">About Me</a></li>
+                    <li><a href="#skills" data-after="Skills">Skills</a></li>
+                    <li><a href="#portfolio" data-after="Projects">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End of Header Section-->
+
 
 <!--Home Section-->
 <section id="home">
@@ -149,5 +161,9 @@
 </div>
 </section>
 <!--End of Footer Section-->
+
+<script src="./app.js"></script>
+
 </body>
+
 </html>
