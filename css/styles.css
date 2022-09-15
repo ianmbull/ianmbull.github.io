@@ -197,8 +197,8 @@ header {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(60deg, #403B4A -20%, #E7E9BB 100%);
-  opacity: .6;
+  background-image: linear-gradient(60deg, #3C3B3F -20%, #a0957d 100%);
+  opacity: 1;
   z-index: -1;
 }
 
@@ -321,9 +321,18 @@ img.profile_pic {
   
 }
 
+#skills .logo {
+  margin-bottom: 5px;
+}
+
 #skills .skills-item {
   padding: 0px 30px;
-  
+}
+
+#skills .skills-item img {
+  height: 64px;
+  width: 64px;
+
 }
 
 
@@ -647,7 +656,7 @@ img.profile_pic {
   }
 
   #home:after {
-    background-image: linear-gradient(60deg, #403B4A 0%, #E7E9BB 100%);
+    background-image: linear-gradient(60deg, #3C3B3F 0%, #a0957d 120%);
   }
 
   #skills .skills-top {
@@ -658,6 +667,14 @@ img.profile_pic {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 250px;
     gap: 15px;
+  }
+
+  #skills .logo {
+    margin-bottom: 10px;
+  }
+
+  #skills .skills img {
+    margin-bottom: 10px;
   }
 
 
