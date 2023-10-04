@@ -455,6 +455,7 @@ img.profile_pic {
 }
 
 #portfolio .portfolio-item .button {
+  text-decoration: none;
   background: white;
   padding: 10px;
   letter-spacing: .4rem;
