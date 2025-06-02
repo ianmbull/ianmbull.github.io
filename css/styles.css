@@ -21,7 +21,7 @@ html {
 
 h1 {
   font-size: 30px;
-  font-family: "Cinzel", sans-serif;
+  font-family: "roboto", sans-serif;
 }
 
 h2 {
@@ -328,7 +328,6 @@ img.profile_pic {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 30px;
-  
 }
 
 #skills .logo {
@@ -799,7 +798,13 @@ img.profile_pic {
 
 
   #skills .skills-top {
-    max-width: 650px;
+    max-width: 950px;
+  }
+  #skills .skills-top p {
+    font-size: 1.2rem;
+  }
+  #skills .skills-top p:last-child {
+    padding-top: 12px;
   }
 
   #skills .skills-bottom {
@@ -828,7 +833,10 @@ img.profile_pic {
   }
 
   #portfolio .portfolio-top {
-    max-width: 650px;
+    max-width: 950px;
+  }
+  #portfolio .portfolio-top p {
+    font-size: 1.2rem;
   }
 
   #footer .social-item {
